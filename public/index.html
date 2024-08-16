@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="des.css">
+        <!-- Bootstrap CSS -->
+ </head>
+        <body>
+          <script src = "iq.js"></script>
+            <nav>
+                <div class = "logo">
+                    <img src = "logo.png" alt = "Company Logo">
+                    <h1>Home Siksha</h1>
+                </div>
+                <div class = "nav-links">
+                    <a  href = "credentialForm.html">Register as a tutor</a>
+                    <a  href = "credentialForm.html">Contact us</a>
+                </div>
+            </nav>
+             <div id = "courseSelection">
+        <form action="credentialForm.html" method="get">
+            <h1>Which Class / Course you are Looking For ?</h1>
+            <table>
+                <tr>
+                    <td><label><input type="radio" name="option">Nursery</label></td>
+                    <td><label><input type="radio" name="option">Class I-IV</label></td>
+                </tr>
+                <tr>
+                    <td><label><input type="radio" name="option">Class V-X</label></td>
+                    <td><label><input type="radio" name="option">Class XI-XII</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label><input type="radio" name="option">Others</label></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <table class= "subject-table">
+        <tr id = "row1">
+          <td id = "cell1" ><img id = "zoomMath" onpointerover="increaseSizeMath()" onpointerleave="normalSizeMath()" src="maths-image.png" alt="  Math Image"><br><a id = "mathLink" href = "javascript:void(0);" onclick="counterMaths()">Maths</a> </td>
+          <td  id = "cell1"><img id = "zoomEnglish" style="width:120px"    onpointerover="increaseSizeEnglish()" onpointerleave = "normalSizeEnglish()"src="english-image.png" alt="English Image"><br><a href = "javascript:void(0);" onclick="counterEnglish()">English</a></td>
+          <td  id = "cell1"><img id = "zoomComputer" onpointerover="increaseSizeComputer()" onpointerleave="normalSizeComputer()"src="computer-science-image.png" alt="Computer Science Image"><br>  <a href = "javascript:void(0);" onclick="counterComputer()">Computer</a></td>
+          <td  id = "cell1"><img id = "zoomPhysics"  onpointerover="increaseSizePhysics()" onpointerleave="normalSizePhysics()"src="physics-image.png" alt="Physics Image"><br><a href = "javascript:void(0);" onclick="counterPhysics()">Physics</a></td>
+        </tr>
+        <tr id = "row1">
+          <td  id = "cell1"><img id = "zoomCommerce" onpointerover="increaseSizeCommerce()" onpointerleave="normalSizeCommerce()" src="commerce-image.png" alt="Commerce Image"><br><a href = "javascript:void(0);" onclick="counterCommerce()">Commerce</a></td>
+          <td  id = "cell1"><img id = "zoomBussiness"  onpointerover="increaseSizeBussiness()" onpointerleave="normalSizeBussiness()" src="bussiness-studies-image.png" alt="Business Studies Image"><br><a href = "javascript:void(0);" onclick="counterBussiness()">Business Studies</a></td>
+          <!-- Add more subjects as needed -->
+          <td  id = "cell1"><img id = "zoomBiology"  onpointerover="increaseSizeBiology()" onpointerleave="normalSizeBiology()" src="biology-image.png" alt="Biology Image"><br><a href = "javascript:void(0);" onclick="counterBiology()">Biology</a></td>
+          <td  id = "cell1"><img id = "zoomChemistry" onpointerover="increaseSizeChemistry()" onpointerleave="normalSizeChemistry()" src="chemistry-image.png" alt="Chemistry Image"><br><a href = "javascript:void(0);" onclick="counterChemistry()">Chemistry</a></td>
+        </tr>
+        <tr id = "row1">
+          <td  id = "cell1"><img id = "zoomHisotry"  onpointerover="increaseSizeHisotry()" onpointerleave="normalSizeHisotry()" src="history-image.png" alt="History Image"><br><a href = "javascript:void(0);" onclick="counterHistory()">History</a></td>
+          <td  id = "cell1"><img id = "zoomEconomics"  onpointerover="increaseSizeEconomics()" onpointerleave="normalSizeEconomics()"src="economics-image.png" alt="Economics Image"><br><a href = "javascript:void(0);" onclick="counterEconomics()">Economics</a></td>
+          <td  id = "cell1"><img id = "zoomGeography"  onpointerover="increaseSizeGeography()" onpointerleave="normalSizeGeography()" src="geography-image.png" alt="Geography Image"><br><a href = "javascript:void(0);" onclick="counterGeography()">Geography</a></td>
+          <td  id = "cell1"><img id = "zoomAccounts"  onpointerover="increaseSizeAccounts()" onpointerleave="normalSizeAccounts()" src="accounts-image.png" alt="Accounts Image"><br><a href = "javascript:void(0);" onclick="counterAccounts()">Accounts</a></td>
+        </tr>
+        <tr id = "rowLast">
+          <p>Explore More Subjects</p>
+            <td id = "cellLast"></td>
+        </tr>
+      </table>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+
+
+
+<div class="icon-bar">
+
+  <a href="credentialForm.html" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+  <a href="credentialForm.html" class="instagram"><i class="fa fa-instagram"></i></a>
+</div>
+
+        </body>
+
+   
+</html>
